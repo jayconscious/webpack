@@ -5,6 +5,7 @@
 /*globals window __webpack_hash__ */
 if (module.hot) {
 	var lastHash;
+	// upToDate 最新 lastHash是否是最新的 hash
 	var upToDate = function upToDate() {
 		return lastHash.indexOf(__webpack_hash__) >= 0;
 	};
